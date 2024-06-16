@@ -1,0 +1,29 @@
+body {
+    background-color: #f8f9fa;
+  }
+  .hero {
+    background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 100px 0;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+  }
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
